@@ -1,0 +1,124 @@
+body{
+    background-image: url("img/1.jpg");
+}
+
+h1{
+    background-image: url("img/2.jpg") ;
+    font-size:70px ;
+    margin: 50px 300px 50px 400px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    width: 500px;
+    height: 100px;
+
+   
+}
+
+nav{
+   padding: 10px;
+   margin: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    
+    
+}
+
+
+#l{
+    background: #F2D5AB;
+    width: 100PX;
+margin: 20px;
+padding: 10px;
+border-radius: 100PX;
+padding: 20px ;
+box-shadow: 1px 1px 5px 1px;
+display: flex;
+justify-content: center;
+
+
+}
+
+  
+
+#ll{
+    background: #F2D5AB;
+    width: 100PX;
+margin: 20px;
+padding: 10px;
+border-radius: 100PX;
+padding: 20px ;
+box-shadow: 1px 1px 5px 1px;
+display: flex;
+justify-content: center;
+
+}
+
+#lll{
+    background: #F2D5AB;
+    width: 100PX;
+margin: 20px;
+padding: 10px;
+border-radius: 100PX;
+padding: 20px ;
+box-shadow: 1px 1px 5px 1px;
+display: flex;
+justify-content: center;
+
+}
+
+#llll{
+    background: #F2D5AB;
+    width: 100PX;
+margin: 20px;
+padding: 10px;
+border-radius: 100PX;
+padding: 20px ;
+box-shadow: 1px 1px 5px 1px;
+display: flex;
+justify-content: center;
+}
+
+#o {
+    text-align: center;
+    font-size:50px ;
+}
+
+.m{
+     
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,150px );
+   
+    
+  
+}
+.m #k{
+    grid-column: 1/3;
+    font-size:30px ;
+
+}
+#oo{
+    text-align: center;
+    font-size:50px ;
+}
+#ooo{
+    text-align: center;
+    font-size:50px ;
+}
+#oooo{
+    text-align: center;
+    font-size:50px ;
+}
+.ttt{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+footer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
