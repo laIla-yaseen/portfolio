@@ -1,0 +1,156 @@
+body{
+    background-image: url("img/1.jpg") ;
+}
+
+h1{
+    background-image: url("img/2.jpg") ;
+    font-size:70px ;
+    margin: 50px 300px 50px 400px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    width: 500px;
+    height: 100px;
+
+   
+}
+
+nav{
+   padding: 10px;
+   margin: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    
+    
+}
+
+
+#l{
+    background: #F2D5AB;
+    width: 100PX;
+margin: 20px;
+padding: 10px;
+border-radius: 100PX;
+padding: 20px ;
+box-shadow: 1px 1px 5px 1px;
+display: flex;
+justify-content: center;
+
+
+}
+
+  
+
+#ll{
+    background: #F2D5AB;
+    width: 100PX;
+margin: 20px;
+padding: 10px;
+border-radius: 100PX;
+padding: 20px ;
+box-shadow: 1px 1px 5px 1px;
+display: flex;
+justify-content: center;
+
+}
+
+#lll{
+    background: #F2D5AB;
+    width: 100PX;
+margin: 20px;
+padding: 10px;
+border-radius: 100PX;
+padding: 20px ;
+box-shadow: 1px 1px 5px 1px;
+display: flex;
+justify-content: center;
+
+}
+
+#llll{
+    background: #F2D5AB;
+    width: 100PX;
+margin: 20px;
+padding: 10px;
+border-radius: 100PX;
+padding: 20px ;
+box-shadow: 1px 1px 5px 1px;
+display: flex;
+justify-content: center;
+}
+
+#o {
+    text-align: center;
+    font-size:50px ;
+}
+
+.m{
+     
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,150px );
+    gap: 10px;
+  
+}
+.m #k{
+    grid-column: 1/3;
+    font-size:30px ;
+}
+
+article.gg {
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(5,100px);
+    grid-template-rows: repeat(3,100px);
+    gap: 5px;
+    justify-content: center;
+    grid-template-areas: 
+    "ee ee ee r rr"
+    "ee ee ee rrrr rrrrr"
+    "ee ee ee rrr rrr";
+}
+
+#rr{
+    font-size:30px ;
+    grid-area: ee;
+}
+.e{
+grid-area: r;
+}
+.ee{
+    grid-area: rr;
+}
+.eee{
+    grid-area: rrr;
+}
+.eeee{
+    grid-area: rrrr;
+}
+.eeeee{
+    grid-area: rrrrr;
+}
+
+#oo{
+    text-align: center;
+    font-size:50px ;
+}
+#ooo{
+    text-align: center;
+    font-size:50px ;
+}
+#oooo{
+    text-align: center;
+    font-size:50px ;
+}
+.ttt{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+footer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
